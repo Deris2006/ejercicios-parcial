@@ -23,7 +23,7 @@ empleado.salario = empleado.salario * 1.15;
 // Elmine la propiedad activo
 delete empleado.activo;
 
-
+// Mostrar información en la consola
 console.log("=== FICHA DE EMPLEADO ===")
 console.log(`Nombre: ${empleado.nombre.toUpperCase()}`)
 console.log(`Salario: $${empleado.salario.toFixed(2)}`)
