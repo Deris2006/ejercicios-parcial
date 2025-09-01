@@ -24,10 +24,9 @@ empleado.salario = empleado.salario * 1.15;
 delete empleado.activo;
 
 
-console.log(`=== FICHA DE EMPLEADO ===)
-Nombre: ${empleado.nombre.toUpperCase()}
-Edad: ${empleado.edad} años
-Salario: $${empleado.salario.toFixed(2)}
-Departamento: ${empleado.departamento.toLowerCase()}
-Año de ingreso: ${empleado.fechaIngreso.getFullYear()}
-Habilidades (${empleado.habilidades.length}): ${empleado.habilidades.join(', ')}`);
+console.log("=== FICHA DE EMPLEADO ===")
+console.log(`Nombre: ${empleado.nombre.toUpperCase()}`)
+console.log(`Salario: $${empleado.salario.toFixed(2)}`)
+console.log(`Departamento: ${empleado.departamento.toLowerCase()}`)
+console.log(`Año de ingreso: ${empleado.fechaIngreso.getFullYear()}`)
+console.log(`Habilidades (${empleado.habilidades.length}): ${empleado.habilidades.join(", ")}`)
