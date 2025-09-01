@@ -1,4 +1,3 @@
-// Información del participante
 const asistente = {
     nombre: "María López",
     edad: 19,
